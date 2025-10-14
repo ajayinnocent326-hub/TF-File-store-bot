@@ -7,8 +7,8 @@ from logging.handlers import RotatingFileHandler
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8468040328:AAHW2uErIFdNkYgyLzowNexWrGGhUc6tB40")
 API_ID = int(os.environ.get("API_ID", "26693705"))
-API_HASH = os.environ.get("API_HASH", "
-9604403a236681897801a71a9aff3e92")
+API_HASH = os.environ.get("API_HASH", "9604403a236681897801a71a9aff3e92")
+
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "1056566022"))
