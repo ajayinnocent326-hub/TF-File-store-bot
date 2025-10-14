@@ -15,7 +15,7 @@ DB_URL = os.environ.get("DB_URL", "abinnathNS93@cluster0.za32sml.mongodb.net")
 DB_NAME = os.environ.get("DB_NAME", "atvtamil")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002936906641"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1056566022"))
 
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002936906641"))
 
