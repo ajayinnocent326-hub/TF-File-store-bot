@@ -17,7 +17,7 @@ DB_NAME = os.environ.get("DB_NAME", "atvtamil")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1056566022"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002936906641"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "1003111529891"))
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
