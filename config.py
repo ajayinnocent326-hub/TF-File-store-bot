@@ -5,19 +5,19 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8286559249:AAFo9rcLmbPzr0-vGjZbR2JXMey5YTpIRWs")
-API_ID = int(os.environ.get("API_ID", "26693705"))
-API_HASH = os.environ.get("API_HASH", "9604403a236681897801a71a9aff3e92")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7543182408:AAFv8tj0CMvnxrLdjh0R-tH8Qx4Y7ZO0vko")
+API_ID = int(os.environ.get("API_ID", "28902436"))
+API_HASH = os.environ.get("API_HASH", "78e3c8b856fd5bd13b52066a52404c3c")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "1056566022"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "Owner: 6190987091"))
 DB_URL = os.environ.get("DB_URL", "abinnathNS93@cluster0.za32sml.mongodb.net")
 DB_NAME = os.environ.get("DB_NAME", "atvtamil")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1056566022"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003168935251"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "1003111529891"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "1003155086322"))
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
@@ -31,14 +31,14 @@ F_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/ufzpkn.jpg")
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "0")) # auto delete in seconds
 
 
-PORT = os.environ.get("PORT", "19099")
+PORT = os.environ.get("PORT", "19093")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 
 try:
-    ADMINS=[1056566022]
-    for x in (os.environ.get("ADMINS", "1056566022").split()):
+    ADMINS=[6190987091]
+    for x in (os.environ.get("ADMINS", "6190987091").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -75,7 +75,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} Yo
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1056566022)
+ADMINS.append(6190987091)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
