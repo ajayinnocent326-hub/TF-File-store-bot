@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", "28902436"))
 API_HASH = os.environ.get("API_HASH", "78e3c8b856fd5bd13b52066a52404c3c")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "Owner: "6190987091"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6190987091"))
 DB_URL = os.environ.get("DB_URL", "abinnathNS93@cluster0.za32sml.mongodb.net")
 DB_NAME = os.environ.get("DB_NAME", "atvtamil")
 
