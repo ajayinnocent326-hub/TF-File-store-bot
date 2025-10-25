@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7543182408:AAFv8tj0CMvnxrLdjh0R-tH8Qx4Y7ZO0vko")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8320311408:AAHP9LonV308YMhuOShvbfOvl8OJVznlV_g")
 API_ID = int(os.environ.get("API_ID", "28902436"))
 API_HASH = os.environ.get("API_HASH", "78e3c8b856fd5bd13b52066a52404c3c")
 
@@ -15,9 +15,9 @@ DB_URL = os.environ.get("DB_URL", "abinnathNS93@cluster0.za32sml.mongodb.net")
 DB_NAME = os.environ.get("DB_NAME", "atvtamil")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003168935251"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003288815459"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003168935251"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003144143827"))
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
@@ -31,7 +31,7 @@ F_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/ufzpkn.jpg")
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "0")) # auto delete in seconds
 
 
-PORT = os.environ.get("PORT", "19093")
+PORT = os.environ.get("PORT", "19097")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
