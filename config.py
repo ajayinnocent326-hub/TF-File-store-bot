@@ -110,7 +110,7 @@ class Txt(object):
 <b>😈 Bot Made By :</b> @tech_freak_tamil"""
 
 
-# atv tamil
+# Teck freak
 # Don't Remove Credit!!!
-# Telegram Channel @atv-tamil
+# Telegram Channel @Tech-freak-tamil
 # Developer @devilo7
