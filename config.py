@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "78e3c8b856fd5bd13b52066a52404c3c")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6190987091"))
-DB_URL = os.environ.get("DB_URL", "abinnathNS93@cluster0.za32sml.mongodb.net")
+DB_URL = os.environ.get("DB_URL", "XCDKJ3T6H5WikLU3@cluster0.ktll4yi.mongodb.net")
 DB_NAME = os.environ.get("DB_NAME", "atvtamil")
 
 
@@ -31,7 +31,7 @@ F_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/ufzpkn.jpg")
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "0")) # auto delete in seconds
 
 
-PORT = os.environ.get("PORT", "19097")
+PORT = os.environ.get("PORT", "18012")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
